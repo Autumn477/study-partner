@@ -20,7 +20,7 @@ FONT_MAIN = ("Georgia", 9)
 FONT_TITLE = ("Georgia", 11, "bold")
 FONT_SMALL = ("Georgia", 8, "italic")
 
-API_KEY = "sk-0134adf5b34f4fcabda80014578643b4"
+API_KEY = "API key" # copy-paste the key here
 LOG_FILE = "romanova_focus_log.csv"
 
 client = OpenAI(api_key=API_KEY, base_url="https://api.deepseek.com")
